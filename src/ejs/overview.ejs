@@ -1,0 +1,63 @@
+<div class="city-logo">
+    <img src="<%=info.cityLogo%>" class="round-photo-logo">
+    <span class="city-name" id="current-city-name"><%=info.name%></span>
+    <a class="btn btn-default pull-right" style="margin-top: 10px;" id="addCityToMap" href="#gmap">Add</a>
+</div>
+<img src="<%=info.cityMapImage%>" class="city-map">
+<div class="overview">
+    <div class="header-text">Overview</div>
+    <h5 id="current-city-overview"><%=info.overview%></h5>
+    <div class="stats">
+        <div class="weather row">
+            <i class="fa fa-sun-o icon" aria-hidden="true"></i>
+            <div class="stats-text">Weather: </div>
+            <div class="text" id="current-weather"><%=info.weather%></div>
+        </div>
+        <div class="time row">
+            <i class="fa fa-clock-o icon" aria-hidden="true"></i>
+            <div class="stats-text">Local time: </div>
+            <div class="text" id="current-local-time"><%=info.localTime%></div>
+        </div>
+        <div class="population row">
+            <i class="fa fa-globe icon" aria-hidden="true"></i>
+            <div class="stats-text">Population: </div>
+            <div class="text" id="current-population"><%=info.population%></div>
+        </div>
+        <div class="cost row">
+            <i class="fa fa-credit-card icon" aria-hidden="true"></i>
+            <div class="stats-text">Cost of living: </div>
+            <div class="text" id="current-cost-living"><%=info.costLiving%></div>
+        </div>
+        <div class="internet row">
+            <i class="fa fa-signal icon" aria-hidden="true"></i>
+            <div class="stats-text">Internet: </div>
+            <div class="text" id="current-internet"><%=info.internet%></div>
+        </div>
+        <div class="worplaces row">
+            <i class="fa fa-briefcase icon" aria-hidden="true"></i>
+            <div class="stats-text">Workplaces: </div>
+            <div class="text" id="current-workplaces"><%=info.workplace%></div>
+        </div>
+        <div class="safety row">
+            <i class="fa fa-leaf icon" aria-hidden="true"></i>
+            <div class="stats-text">Safety: </div>
+            <div class="text" id="current-safety"><%=info.safety%></div>
+        </div>
+        <div class="languages row">
+            <i class="fa fa-book icon" aria-hidden="true"></i>
+            <div class="stats-text">Languages: </div>
+            <div class="text" id="current-languages"><%=info.languages%></div>
+        </div>
+        <div class="nightlife row">
+            <i class="fa fa-glass icon" aria-hidden="true"></i>
+            <div class="stats-text">Nightlife: </div>
+            <div class="text" id="current-nightlife"><%=info.nightlife%></div>
+        </div>
+    </div>
+</div>
+<div class="photo-container">
+    <img class="photo-item big-photo" src="http://www.jetblue.com/img/vacations/destination/NewYorkSkyline_960x420.jpg">
+    <div>
+        <img class="photo-item" src="http://www.nyhabitat.com/blog/wp-content/uploads/2016/08/Apartments-new-york-personality-types-Central-Park-Manhattan-skyline-NYC.jpg">
+        <img class="photo-item" src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/f2/new-york-city.jpg">
+</div>
